@@ -270,6 +270,7 @@ p
 	z-index: -77;
 }
 #myNav-mobile{
+	display: none;
 	position: fixed;
 	background: #10161B;
 	width: 320px;
@@ -697,6 +698,9 @@ input{
 	.main-head a.btn-clear
 	{
 		margin-bottom: 44px;
+	}
+	#myNav-modile{
+		display:block;
 	}
 	#myNav{
 		display: none;
