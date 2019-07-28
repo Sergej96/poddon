@@ -391,16 +391,17 @@ a.closed
 	margin: 0 auto;
 	width: 96px;
 }
+#app{
+	padding: 0;
+}
 .img-app
 {
-	margin: 0 auto -111px auto;
-	max-width: 395px;
-	overflow: hidden;
+	
 	width: 100%;
 }
 .img-app img
 {
-	margin-bottom: -125px;
+	width: 100%;
 }
 .fudi-app .title-line
 {
