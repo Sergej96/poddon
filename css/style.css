@@ -463,6 +463,12 @@ a.closed
     width: 100%;
     height: 100%;
 }
+.swiper-pagination-poddon{
+	display: block;
+    margin: 0 auto;
+    width: 130px!important;
+}
+}
 #testiSlide .flex-control-paging li a.flex-active
 {
 	background: #fff;
