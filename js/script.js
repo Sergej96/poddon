@@ -36,7 +36,25 @@ scrollThreshold: 0.25
  //=========== jquery flexslider ====================
 	$('#testiSlide').flexslider({
     animation: "slide"
-	});	
+	});
+
+  //=========== swiper ====================
+  $(document).ready(function () {
+    //initialize swiper when document ready
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      loop: true,
+      longSwipesRatio: 0,
+      autoplay: {
+        delay: 5000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        dynamicBullets: true,
+      },
+    })
+  });	
  //=========== jquery invew ====================
 $('.hidding').bind('inview', function(event, visible) {
 var effect = $(this).attr('data-animated');

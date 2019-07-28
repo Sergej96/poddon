@@ -42,11 +42,11 @@
 }
 .bg-a
 {
-	background: #f57365;
+	background: #F44336;
 }
 .color-a
 {
-	color: #f57365;
+	color: #F44336;
 }
 .bg-trans
 {
@@ -83,7 +83,7 @@ img
 	overflow: hidden;
 	padding: 72px 0 71px;
 	position: relative;
-	border-bottom: 2px solid #f57365;
+	border-bottom: 2px solid #F44336;
 }
 .page-color
 {
@@ -101,9 +101,8 @@ img
 }
 .main-header
 {
-	background: url(../img/bg.jpg) no-repeat center;
-	background-attachment: fixed;
-	background-size: 100% 100%;
+	background: url(../img/bg1.jpg) no-repeat center/ cover;
+	/*background-attachment: fixed;*/
 }
 .head-push
 {
@@ -223,8 +222,8 @@ a.btn-clear
 }
 a.btn-clear:hover
 {
-	background: #f57365;
-	border-color: #f57365;
+	background: #F44336;
+	border-color: #F44336;
 	color: #fff;
 }
 .btn-head{
@@ -260,6 +259,9 @@ p
 	color: #fff;
 	font-size: 30px;
 }
+.main-nav button:active, .main-nav button:focus{
+	color: #000;
+}
 #myNav, #myNav-mobile
 {
 	background: #000000a6;
@@ -270,7 +272,6 @@ p
 	z-index: -77;
 }
 #myNav-mobile{
-	display: none;
 	position: fixed;
 	background: #10161B;
 	width: 320px;
@@ -308,7 +309,7 @@ a.closed
 .main-head
 {
 	color: #fff;
-	height: auto;
+	height: 100%;
 	moz-transform: translate(0,-50%);
 	ms-transform: translate(0,-50%);
 	o-transform: translate(0,-50%);
@@ -352,13 +353,17 @@ a.closed
 {
 	font-family: Lato-Bold,sans-serif;
 	font-size: 50px;
-	width: 65%;
-	margin: 18px auto;
+	width: 80%;
+	margin: 91px auto;
+	padding: 20px;
+	box-shadow: 15px 15px 35px 2px #000;
+	background: #F44336;
 }
 .main-head a.btn-clear
 {
 	font-family: Lato-Bold,sans-serif;
 	font-size: 18px;
+	margin-top: 160px; 
 	margin-bottom: 24px;
 	padding: 12px 48px;
 }
@@ -376,12 +381,12 @@ a.closed
 	width: 96px;
 }
 .get-icon i{
-	color: #f57365;
+	color: #F44336;
 	font-size: 60px;
 }
 .title-line
 {
-	border-bottom: 1px solid #f57365;
+	border-bottom: 1px solid #F44336;
 	height: 1px;
 	margin: 0 auto;
 	width: 96px;
@@ -451,6 +456,11 @@ a.closed
 	position: relative;
 	webkit-border-radius: 0;
 	webkit-box-shadow: none;
+}
+/****** swiper *******/
+.swiper-container {
+    width: 100%;
+    height: 100%;
 }
 #testiSlide .flex-control-paging li a.flex-active
 {
@@ -665,8 +675,8 @@ input[name="mail_submit"]{
 }
 input[name="mail_submit"]:hover
 {
-	background: #f57365;
-	border-color: #f57365;
+	background: #F44336;
+	border-color: #F44336;
 	color: #fff;
 }
 input{
@@ -693,14 +703,11 @@ input{
 	.main-head h1
 	{
 		font-size: 30px;
-		width: 80%;
+		width: 100%;
 	}
 	.main-head a.btn-clear
 	{
 		margin-bottom: 44px;
-	}
-	#myNav-mobile{
-		display:block;
 	}
 	#myNav{
 		display: none;
