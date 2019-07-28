@@ -54,6 +54,16 @@ scrollThreshold: 0.25
         dynamicBullets: true,
       },
     })
+
+    var poddon = new Swiper ('.swiper-container-poddon', {
+      // Optional parameters
+      loop: true,
+      slidesPerView: 4,
+      pagination: {
+        el: '.swiper-pagination-poddon',
+        type: 'bullets',
+      },
+    })
   });	
  //=========== jquery invew ====================
 $('.hidding').bind('inview', function(event, visible) {
