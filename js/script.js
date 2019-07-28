@@ -59,6 +59,20 @@ scrollThreshold: 0.25
       // Optional parameters
       loop: true,
       slidesPerView: 4,
+	 breakpoints: {
+	      // when window width is <= 320px
+	      320: {
+		slidesPerView: 1,
+	      },
+	      // when window width is <= 480px
+	      480: {
+		slidesPerView: 1,
+	      },
+	      // when window width is <= 640px
+	      640: {
+		slidesPerView: 1,
+	      },
+	 },
       pagination: {
         el: '.swiper-pagination-poddon',
         type: 'bullets',
