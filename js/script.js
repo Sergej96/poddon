@@ -136,6 +136,15 @@ $(function() {
   });
 });
 
+
+$(window).on('load', function () {
+	$preloader = $('.preloader');
+	$('body').css('overflow','initial');
+	$loader = $preloader.find('.loader');
+	$loader.fadeOut();
+	$preloader.delay(500).fadeOut('slow');
+});
+	
 /* function navScroll(){
  $(window).scroll(function() {
 
